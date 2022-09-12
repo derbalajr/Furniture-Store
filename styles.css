@@ -1,0 +1,166 @@
+h1 {
+  font-family: "Times New Roman", Arial;
+  font-size: 22px;
+  text-align: center;
+}
+
+#landscape img {
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 20px;
+  max-width: 20%;
+  max-height: 20%;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+  padding-left: 160px;
+  padding-top: 60px;
+}
+
+nav li{
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #ECECEC;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.categories {
+  padding-top: 50px;
+  background-color: #ECECEC;
+  font-family: sans-serif;
+  text-align: center;
+  color: #5463FF;
+  font-size: 25px;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #5463FF;
+}
+
+header {
+  padding:20px 0 80px 0;
+  background-color: #5463FF;
+}
+
+.categories img {
+  width: 100%;
+  padding: 50px 0px 50px 0;
+}
+
+.category div {
+  display: inline-block;
+  width: 25%;
+  max-width: 24.8%;
+  text-align: center;
+  height: 400px;
+
+}
+
+.category div h2 {
+  padding-top: 160px;
+  color: #5463FF;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.active {
+  color: #FFC300;
+}
+
+.category-name h2 {
+  font-family: sans-serif;
+  text-align: center;
+  color: #FF1818;
+  font-size: 40px;
+  padding: 30px 0;
+}
+
+.row {
+  padding: 30px 80px;
+}
+
+.row div {
+  display: inline-block;
+  width: 50%;
+  max-width: 48%;
+  text-align: center;
+  border: 1px solid;
+}
+
+.row img {
+  max-width: 350px;
+  max-height: 400px;
+}
+.row p {
+  font-family: monospace;
+}
+.row p span {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #FF1818;
+}
+
+.logo-color {
+  background-color: #FFFAF6;
+}
+
+
+.form {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+  background-color: #FFC300;
+}
+
+input[type=submit]:hover {
+  background-color: #FF1818;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #F55353;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact h2 {
+  font-family: cursive;
+  font-size: 35px;
+}
+
+.contact p {
+  font-size: 25px;
+  font-family: monospace;
+  padding-bottom: 100px;
+}
